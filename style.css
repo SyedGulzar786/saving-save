@@ -22,6 +22,12 @@
     font-size: 13px;   
 }
 
+.four-twelve{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;   
+}
+
 .six-thirteen{
     font-family: Poppins;
     font-weight: 600;
@@ -167,6 +173,9 @@ button.btn.btn-link.d-flex.align-items-center.p-0.custom-design {
     border-color: #E66234;
 }
 
+.load-more{
+    background: #FDEFEB;
+}
 /* first-section */
 .first-section{
     background-image: url(./assets/landing-page/Group\ 19994.svg   );
@@ -221,7 +230,7 @@ button.btn.btn-link.d-flex.align-items-center.p-0.custom-design {
     width: 274px;
     border: 1px solid #BFBFBF;
     border-radius: 12px;   
-    box-shadow: 0px 4px 6px 0px #00000008;
+    box-shadow: 0px 12px 16px 0px #00000014;
 }
 
 .discount-card img{
@@ -424,4 +433,39 @@ carouseil::before, carouseil::after{
 
 .input{
     width: 384px;
+}
+
+/* float slider icons */
+.floating-icon-left{
+    /* background-color: red !important; */
+    left: -45px !important;
+    color: black !important;
+    font-size: 34px;
+    width: 30px !important;
+}
+
+.floating-icon-right{
+    /* background-color: red !important; */
+    width: 30px !important;
+    right: -45px !important;
+    color: black !important;
+    font-size: 34px;
+}
+.floating-icon-previous{
+    /* background-color: red !important; */
+    right: 15px !important;
+    color: black !important;
+    font-size: 34px;
+    width: 30px !important;
+}
+
+.floating-icon-next{
+    /* background-color: red !important; */
+    width: 30px !important;
+    left: 15px !important;
+    color: black !important;
+    font-size: 34px;
+}
+.width-stance{
+    max-width: 1420px;
 }
