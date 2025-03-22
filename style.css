@@ -52,6 +52,12 @@
     font-size: 40px;
 }
 
+.five-fourty{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 40px;
+}
+
 .four-eighteen{
     font-family: Poppins;
     font-weight: 400;
@@ -285,6 +291,11 @@ button.btn.btn-link.d-flex.align-items-center.p-0.custom-design {
     left: 10px;
     z-index: -1;
 }
+.title-frame-secondary{
+    top: -40px !important;
+    left: 120px;
+    z-index: -1;
+}
 
 /*Carousel*/
 carouseil {
@@ -365,55 +376,52 @@ carouseil::before, carouseil::after{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .blur-slide-one{
     background-image: url(./assets/landing-page/Group\ 19996.svg);
 }
+
 .blur-slide-two{
     background-image: url(./assets/landing-page/Group\ 19994.svg);
 }
+
 .blur-slide-three{
     background-image: url(./assets/landing-page/2150698891\ 1.svg);
 }
 
-/* h2 {
-            font-size: 1.125rem;
-            font-weight: 600;
-            margin-bottom: 16px;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            display: flex;
-            align-items: center;
-            margin-bottom: 8px;
-        }
-        li i {
-            margin-right: 8px;
-        } */
+/* footer */
+.footer{
+    background-image: url(./assets/landing-page/Group\ 19997.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
 
-        <h2>Discount Guides</h2>
-        <ul>
-            <li>
-                <i class="fas fa-chevron-right"></i>
-                <span>Student</span>
-            </li>
-            <li>
-                <i class="fas fa-chevron-right"></i>
-                <span>Teacher</span>
-            </li>
-            <li>
-                <i class="fas fa-chevron-right"></i>
-                <span>Military</span>
-            </li>
-            <li>
-                <i class="fas fa-chevron-right"></i>
-                <span>Senior</span>
-            </li>
-            <li>
-                <i class="fas fa-chevron-right"></i>
-                <span>Healthcare</span>
-            </li>
-        </ul>
-    
+.footer-logo{
+    width: 213px;
+    height: 52px;
+}
+
+.footer i {
+    font-size: 12px;
+} 
+
+/* subscribe input */
+.subscribe-bg{
+    /* background-color: #FBCE6F; */
+    background-image: url(./assets/landing-page/Group\ 20001.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.subscribe{
+    background-image: url(./assets/landing-page/Group\ 20000.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.input{
+    width: 384px;
+}
