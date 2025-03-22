@@ -1,6 +1,6 @@
 let index = 0;
         const visibleItems = 4;
-        const itemWidth = document.querySelector('.slider-item').offsetWidth + 20; // Item width + gap
+        const itemWidth = document.querySelector('.slider-item').offsetWidth + 18; // Item width + gap
         const slider = document.getElementById('slider');
         const totalItems = slider.children.length;
 
