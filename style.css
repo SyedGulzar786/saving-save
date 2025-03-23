@@ -28,6 +28,12 @@
     font-size: 12px;   
 }
 
+.four-twentytwo{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size:  23px;   
+}
+
 .six-thirteen{
     font-family: Poppins;
     font-weight: 600;
@@ -70,6 +76,12 @@
     font-size: 18px;    
 }
 
+.four-fourty{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 40px;    
+}
+
 .six-twentytwo{
     font-family: Poppins;
     font-weight: 600;
@@ -80,6 +92,24 @@
     font-family: Poppins;
     font-weight: 700;
     font-size: 60px;    
+}
+
+.seven-sixtyfour{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 64px;    
+}
+
+.seven-twentyseven{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 27px;    
+}
+
+.seven-twenty{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 20px;    
 }
 
 .color-primary{
