@@ -1,0 +1,50 @@
+/* review ratings */
+.reviews-first-sec{
+    background: #FAC452;
+}
+
+.review-divider {
+    height: inherit !important;
+    border-left: 1px solid black !important;
+}
+
+.rating-divider {
+    border-left: 1px solid #BFBFBF !important;
+    height: inherit !important;
+}
+
+.thirtytwo{
+    font-size: 32px;
+}
+
+.twentythree{
+    font-size: 23px;
+}
+
+.rating-yellow{
+color: #FAC452;
+}
+
+.rating-grey{
+color: #BFBFBF;
+}
+
+/* text area */
+.review-textarea{
+    resize: none;
+    height: 100px;    
+}
+
+.feedback-card{
+    background: #FFF9EE;
+    box-shadow: 0px 4px 6px -2px #10182808;
+}
+
+/* sidebar */
+.sidebar{
+    background: #FFF9EE;
+}
+
+.review-button-bg{
+    background: #EA7D57;
+}
