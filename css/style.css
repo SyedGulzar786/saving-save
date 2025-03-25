@@ -88,6 +88,12 @@
     font-size: 22px;
 }
 
+.six-twenty{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+}
+
 .seven-sixty{
     font-family: Poppins;
     font-weight: 700;
@@ -208,7 +214,7 @@ button.btn.btn-link.d-flex.align-items-center.p-0.custom-design {
 }
 /* first-section */
 .first-section{
-    background-image: url(./assets/landing-page/Group\ 19994.svg   );
+    background-image: url(/assets/landing-page/Group\ 19994.svg  );
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 1320px;
@@ -417,20 +423,20 @@ carouseil::before, carouseil::after{
 }
 
 .blur-slide-one{
-    background-image: url(./assets/landing-page/Group\ 19996.svg);
+    background-image: url(/assets/landing-page/Group\ 19996.svg);
 }
 
 .blur-slide-two{
-    background-image: url(./assets/landing-page/Group\ 19994.svg);
+    background-image: url(/assets/landing-page/Group\ 19994.svg);
 }
 
 .blur-slide-three{
-    background-image: url(./assets/landing-page/2150698891\ 1.svg);
+    background-image: url(/assets/landing-page/2150698891\ 1.svg);
 }
 
 /* footer */
 .footer{
-    background-image: url(./assets/landing-page/Group\ 19997.svg);
+    background-image: url(/assets/landing-page/Group\ 19997.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -448,14 +454,14 @@ carouseil::before, carouseil::after{
 /* subscribe input */
 .subscribe-bg{
     /* background-color: #FBCE6F; */
-    background-image: url(./assets/landing-page/Group\ 20001.svg);
+    background-image: url(/assets/landing-page/Group\ 20001.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .subscribe{
-    background-image: url(./assets/landing-page/Group\ 20000.svg);
+    background-image: url(/assets/landing-page/Group\ 20000.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -467,7 +473,6 @@ carouseil::before, carouseil::after{
 
 /* float slider icons */
 .floating-icon-left{
-    /* background-color: red !important; */
     left: -45px !important;
     color: black !important;
     font-size: 34px;
@@ -475,14 +480,13 @@ carouseil::before, carouseil::after{
 }
 
 .floating-icon-right{
-    /* background-color: red !important; */
     width: 30px !important;
     right: -45px !important;
     color: black !important;
     font-size: 34px;
 }
+
 .floating-icon-previous{
-    /* background-color: red !important; */
     right: 15px !important;
     color: black !important;
     font-size: 34px;
@@ -490,12 +494,52 @@ carouseil::before, carouseil::after{
 }
 
 .floating-icon-next{
-    /* background-color: red !important; */
     width: 30px !important;
     left: 15px !important;
     color: black !important;
     font-size: 34px;
 }
+
 .width-stance{
     max-width: 1420px;
+}
+
+/* accordion bootstrap codepen */
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E") !important;
+    /* transition: all 0.5s; */
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E") !important;
+}
+  
+  /* .accordion-button::after {
+    transition: all 0.5s;
+  } */
+
+.accordion-width{
+     max-width: 886px !important;
+}
+
+/* sidebar */
+.sidebar{
+    background: #FFF9EE;
+}
+
+/* rating star */
+.thirtytwo{
+    font-size: 32px;
+}
+
+.twentythree{
+    font-size: 23px;
+}
+
+.rating-yellow{
+color: #FAC452;
+}
+
+.rating-grey{
+color: #BFBFBF;
 }
