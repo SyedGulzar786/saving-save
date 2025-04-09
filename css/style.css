@@ -17,105 +17,105 @@
 }
 
 .four-thirteen{
-    font-family: Poppins;
-    font-weight: 400;
-    font-size: 13px;   
+    font-family: Poppins !important;
+    font-weight: 400 !important;
+    font-size: 13px !important;   
 }
 
 .four-twelve{
-    font-family: Poppins;
-    font-weight: 400;
-    font-size: 12px;   
+    font-family: Poppins !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;   
 }
 
 .four-twentytwo{
-    font-family: Poppins;
-    font-weight: 400;
-    font-size:  23px;   
+    font-family: Poppins !important;
+    font-weight: 400 !important;
+    font-size:  23px !important;   
 }
 
 .six-thirteen{
-    font-family: Poppins;
-    font-weight: 600;
-    font-size: 13px;
+    font-family: Poppins !important;
+    font-weight: 600 !important;
+    font-size: 13px !important;
 }
 
 .six-fifteen{
-    font-family: Poppins;
-    font-weight: 600;
-    font-size: 15px;   
+    font-family: Poppins !important;
+    font-weight: 600 !important;
+    font-size: 15px !important;   
 }
 
 .six-fiftynine{
-    font-family: Poppins;
-    font-weight: 600;
-    font-size: 59px;   
+    font-family: Poppins !important;
+    font-weight: 600 !important;
+    font-size: 59px !important;   
 }
 
 .five-seventeen{
-    font-family: Poppins;
-    font-weight: 500;
-    font-size: 17px;     
+    font-family: Poppins !important;
+    font-weight: 500 !important;
+    font-size: 17px !important;     
 }
 
 .seven-fourty{
-    font-family: Poppins;
-    font-weight: 700;
-    font-size: 40px;
+    font-family: Poppins !important;
+    font-weight: 700 !important;
+    font-size: 40px !important;
 }
 
 .five-fourty{
-    font-family: Poppins;
-    font-weight: 500;
-    font-size: 40px;
+    font-family: Poppins !important;
+    font-weight: 500 !important;
+    font-size: 40px !important;
 }
 
 .four-eighteen{
-    font-family: Poppins;
-    font-weight: 400;
-    font-size: 18px;    
+    font-family: Poppins !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;    
 }
 
 .four-fourty{
-    font-family: Poppins;
-    font-weight: 400;
-    font-size: 40px;    
+    font-family: Poppins !important;
+    font-weight: 400 !important;
+    font-size: 40px !important;    
 }
 
 .six-twentytwo{
-    font-family: Poppins;
-    font-weight: 600;
-    font-size: 22px;
+    font-family: Poppins !important;
+    font-weight: 600 !important;
+    font-size: 22px !important;
 }
 
 .six-twenty{
-    font-family: Poppins;
-    font-weight: 600;
-    font-size: 20px;
+    font-family: Poppins !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
 }
 
 .seven-sixty{
-    font-family: Poppins;
-    font-weight: 700;
-    font-size: 60px;    
+    font-family: Poppins !important;
+    font-weight: 700 !important;
+    font-size: 60px !important;    
 }
 
 .seven-sixtyfour{
-    font-family: Poppins;
-    font-weight: 700;
-    font-size: 64px;    
+    font-family: Poppins !important;
+    font-weight: 700 !important;
+    font-size: 64px !important;    
 }
 
 .seven-twentyseven{
-    font-family: Poppins;
-    font-weight: 700;
-    font-size: 27px;    
+    font-family: Poppins !important;
+    font-weight: 700 !important;
+    font-size: 27px !important;    
 }
 
 .seven-twenty{
-    font-family: Poppins;
-    font-weight: 700;
-    font-size: 20px;    
+    font-family: Poppins !important;
+    font-weight: 700 !important;
+    font-size: 20px !important;    
 }
 
 .color-primary{
@@ -173,7 +173,7 @@ button.btn.btn-link.d-flex.align-items-center.p-0.custom-design {
 }
 
 /* search nav */
-.search-container {
+/* .search-container {
     display: flex;
     align-items: center;
     border: 1px solid #d1d5db;
@@ -193,8 +193,9 @@ button.btn.btn-link.d-flex.align-items-center.p-0.custom-design {
     border: none;
     outline: none;
     color: #9ca3af;
-    background-color: transparent;
-}
+    /* max-width: 180px !important; */
+    /* background-color: transparent;
+} */ */
 
 .search-container input::placeholder {
     color: #9ca3af;
@@ -214,12 +215,32 @@ button.btn.btn-link.d-flex.align-items-center.p-0.custom-design {
 }
 /* first-section */
 .first-section{
-    background-image: url(/assets/landing-page/Group\ 19994.svg  );
-    background-size: cover;
+    background: #fbce6f;
+}
+.first-sec-left-bg{
+    background-image: url(/assets/responsive-layout/Group\ 20002.svg);
+    background-size: contain;
     background-repeat: no-repeat;
-    max-width: 1320px;
-    padding: 80px 0px;
+    background-position: center;
+    padding: 100px 0px;
+}
+.first-sec-right-bg{
+    background-image: url(/assets/responsive-layout/Artboard\ 1\ 1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: right;
+}
+
+.first-sec-right-bg img{
+  right: 310px;
+  top: 60px;
+}
+
+@media screen and (max-width: 1240px) {
+    .first-sec-right-bg img{
+        display: none;;
+    }
+    
 }
 
 /* slider */
